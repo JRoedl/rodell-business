@@ -1,4 +1,11 @@
-body { font-family: Arial, sans-serif; font-size: 16pt; margin: 0; padding: 0; background: #f7f7f7; color: #333; }
+body { 
+    font-family: Arial, sans-serif;
+    font-size: 16pt; 
+    margin: 0; 
+    padding: 0; 
+    background: #f7f7f7; 
+    color: #333; 
+}
     
 header {
   background-image: url("images/roedl-repair-banner-wide.png");
@@ -9,13 +16,28 @@ header {
   background-color: #061922;
 }
 
-main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+main { 
+    max-width: 960px;
+    margin: 2rem auto; 
+    padding: 0 1rem;
+ }
 
-section { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 1.5rem; margin-bottom: 1.5rem; }
+section { 
+    background: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+    padding: 1.5rem; 
+    margin-bottom: 1.5rem; 
+}
 
-h1, h2 { margin-top: 0; }
+h1, h2 { 
+    margin-top: 0; 
+}
 
-p { line-height: 1.5; padding: 0 20px; }
+p { 
+    line-height: 1.5; 
+    padding: 0 20px; 
+}
 
 a {
   color: #005a87;
@@ -26,7 +48,11 @@ a:hover {
   text-decoration: underline;
 }
 
-footer { text-align: center; padding: 1rem 0; color: #666; }
+footer { 
+    text-align: center;
+    padding: 1rem 0; 
+    color: #666;
+ }
 
 .form-group {
   margin-bottom: 1rem;
