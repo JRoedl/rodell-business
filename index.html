@@ -26,14 +26,35 @@
     <section>
       <h2>Services</h2>
       <ul>
-        <li>Equipment repair</li>
-        <li>Preventive maintenance</li>
-        <li>Consultation and support</li>
+        <li>Personal computer and laptop repair</li>
+        <li>At-home troubleshooting and virus removal services</li>
+        <li>Deep cleaning and optimization</li>
+        <li>Custom PC builds</li>
+        <li>Website consultation and support</li>
       </ul>
     </section>
     <section>
       <h2>Contact</h2>
-      <p>Reach out to learn more about our services and schedule an appointment.</p>
+      <p>You can reach us at <a href="tel:815-793-2562">815-793-2562</a> or fill out the form below to get in touch.</p>
+      <form id="contactForm" action="mailto:contact@roedlrepairs.com" method="POST" enctype="text/plain">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
     </section>
   </main>
   <footer>
