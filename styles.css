@@ -19,6 +19,10 @@ footer { text-align: center; padding: 1rem 0; color: #666; }
 
 @media (max-width: 768px) {
   header {
+    background-image: url("images/roedl-repair-banner.png");
+    background-size: cover;
+    background-position: center center;
+    background-color: transparent;
     min-height: 250px;
   }
 
