@@ -213,6 +213,7 @@ textarea {
 @media (max-width: 768px) {
   header {
     background-image: url("images/roedl-repair-banner.png");
+    background-position: right center;
     min-height: 240px;
   }
 
